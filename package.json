@@ -1,0 +1,46 @@
+{
+  "name": "auth-with-jwt",
+  "version": "1.0.0",
+  "description": "lambdaschool assignment backend authentication node express server using JWTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyBrewer/node-auth2-project.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "knex",
+    "sqlite3",
+    "JWT",
+    "bcryptjs"
+  ],
+  "author": "CodyBrewer (https://github.com/CodyBrewer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyBrewer/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/CodyBrewer/node-auth2-project#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.0",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.1"
+  }
+}
